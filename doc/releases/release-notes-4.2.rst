@@ -47,8 +47,8 @@ The following CVEs are addressed by this release:
   <https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-03-1/>`_
 * :cve:`2025-27810` `Potential authentication bypass in TLS handshake
   <https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-03-2/>`_
-
-* :cve:`2025-2962` Under embargo until 2025-06-07
+* :cve:`2025-2962` `Infinite loop in dns_copy_qname
+  <https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-2qp5-c2vq-g2ww>`_
 
 More detailed information can be found in:
 https://docs.zephyrproject.org/latest/security/vulnerabilities.html
@@ -110,6 +110,11 @@ Deprecated APIs and options
 * The :kconfig:option:`CONFIG_CRYPTO_TINYCRYPT_SHIM` Kconfig option has been removed. It
   was deprecated since Zephyr 4.0, and users were advised to migrate to alternative
   crypto backends.
+
+* The :kconfig:option:`CONFIG_BT_MESH_USES_TINYCRYPT` Kconfig option has been removed. It
+  was deprecated since Zephyr 4.0. Users were advised to use
+  :kconfig:option:`CONFIG_BT_MESH_USES_MBEDTLS_PSA` or
+  :kconfig:option:`CONFIG_BT_MESH_USES_TFM_PSA` instead.
 
 Stable API changes in this release
 ==================================

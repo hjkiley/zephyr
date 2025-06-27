@@ -154,7 +154,7 @@ manifest:
       groups:
         - hal
     - name: hal_ambiq
-      revision: f46941f3427bbc05d893a601660e6e3cffe9e29d
+      revision: 84ccbfc0b6041ba9f5688337c78bad99da5448ce
       path: modules/hal/ambiq
       groups:
         - hal
@@ -169,7 +169,7 @@ manifest:
       groups:
         - hal
     - name: hal_espressif
-      revision: e74df076fabc5f944900e02c1884282aeb60dad1
+      revision: 8502aafa3856b9de1e530ccc3ce36e19978f58d2
       path: modules/hal/espressif
       west-commands: west/west-commands.yml
       groups:
@@ -200,7 +200,7 @@ manifest:
       groups:
         - hal
     - name: hal_nordic
-      revision: 71308dc6d8c021887ce5d98a36cafe9517375a91
+      revision: 9587b1dcb83d24ab74e89837843a5f7d573f7059
       path: modules/hal/nordic
       groups:
         - hal
@@ -235,7 +235,7 @@ manifest:
       groups:
         - hal
     - name: hal_silabs
-      revision: 921041808ba4843f72a617f9ad90e0d3beb52bbd
+      revision: 190a144a16bed9a938a94543ed5bbc70c0552e0f
       path: modules/hal/silabs
       groups:
         - hal
@@ -245,7 +245,7 @@ manifest:
       groups:
         - hal
     - name: hal_stm32
-      revision: 468e5ad450a75d4baa3eed80e4f77a7700b71203
+      revision: 126cbbee19208b7aaca5ad8b287cf104e8bc837a
       path: modules/hal/stm32
       groups:
         - hal
